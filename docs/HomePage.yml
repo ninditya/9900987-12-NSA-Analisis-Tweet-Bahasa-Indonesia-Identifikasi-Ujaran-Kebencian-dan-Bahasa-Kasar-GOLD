@@ -1,0 +1,16 @@
+tags:
+  - name: GOLD CHALLENGE - API TEXT PREPROCESSING
+get:
+  description:  1. Terdapat API yang bisa menerima input user berupa teks dan file dengan 2 endpoint (10%)
+                2. Server API dibuat dengan Flask dan Swagger UI (25%) 
+                3. Penyimpanan data dalam SQLite menggunakan modul SQLite 3 (15%)
+                4. API yang bisa menghasilkan output berupa teks yang sudah di-cleansing (10%) 
+                5. API yang bisa memproses text cleansing (15%)
+
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
